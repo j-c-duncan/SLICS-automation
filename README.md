@@ -1,6 +1,7 @@
 # SLICS-automation
 SLICS Automation
 
+Usage is specific to me as a user. Any other approver requires updates to the software
 Uses Selenium to auto populate SLICS entry approval data. 
 Time savings are more than 2 hours per week. 
 
