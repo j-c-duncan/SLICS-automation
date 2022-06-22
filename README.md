@@ -1,8 +1,8 @@
 # SLICS-automation
+# Selenium
 SLICS Automation
 
-Usage is specific to me as a user. Any other approver requires updates to the software
-Uses Selenium to auto populate SLICS entry approval data. 
-Time savings are more than 2 hours per week. 
-
-Need to install selenium in the system with python3.X for it to work
+Usage is specific to each user. Any other approver requires updates to the software
+Inputs: Username, Password
+Uses Selenium and python to evaluate and disposition timesheet entries.  
+Time savings are approximately 2 - 4 hours per week. 
