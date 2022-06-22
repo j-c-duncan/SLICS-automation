@@ -60,8 +60,10 @@ def loop():
         skip = driver.find_element(by=By.XPATH, value='//*[@id="button_skip"]')
         print('4. ' + l)
         
-        #if 
-        if t_time <= 40.00 and "APPROVING" in l and 'Duncan' not in l and 'Malm' not in l:
+        #if statement requires edit for each user. Replace user variable with users identifier.
+        user = 'Duncan'
+        
+        if t_time <= 40.00 and "APPROVING" in l and user not in l and 'Malm' not in l:
             print('Hours are 40 or under, \n it\'s already approved by the manager, \n and it\'s not Jason Malm! \n All Looks Good!')
             approve.click()
         else:
